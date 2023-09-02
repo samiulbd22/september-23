@@ -636,6 +636,9 @@ if(color_get_8 === "0"){
 if(color_due_8 !== "0"){
     rubel_due_bill.style.color = "red";
 }else{rubel_due_bill.style.color = "grey";}
+if(phoneNumber === "01922635500"){
+    document.getElementById("rubella").textContent = "Previous Due";
+}
 // rikto //
 riktaName.innerText         = members["01400709854"].name;
 rikta_meal_cost.innerText   = members["01400709854"].runningDiningCost();
