@@ -736,7 +736,7 @@ function previousListShowMe() {
 
 function dateClock(){
     const startDate     = new Date();
-    const endDate       = new Date("August 31,2023");
+    const endDate       = new Date("September 30,2023");
     const day           = startDate.getDate();
     const month         = startDate.getMonth();
     const year          = startDate.getFullYear();
