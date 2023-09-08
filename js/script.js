@@ -4,7 +4,7 @@ const members = {
     serviceBill     :35,
     othersBill      :0,
     runningMonth    :"September-23",
-    runningMealRate :103,
+    runningMealRate :102,
 
     "01814843266":{
         name:"Istiaq Ahmad Udoy",
@@ -41,7 +41,7 @@ const members = {
         garage_cost     :0,
         running_payable :0,
         running_paid    :0,
-        running_meal    :12,
+        running_meal    :14,
         // method calling
         previousAddedDining,
         previousDue,
@@ -67,7 +67,7 @@ const members = {
         garage_cost     :0,
         running_payable :0,
         running_paid    :0,
-        running_meal    :8,
+        running_meal    :9,
         // method calling
         previousAddedDining,
         previousDue,
@@ -92,7 +92,7 @@ const members = {
         garage_cost     :0,
         running_payable :0,
         running_paid    :0,
-	running_meal    :7,
+	running_meal    :8,
         // method calling
         previousAddedDining,
         previousDue,
@@ -790,7 +790,7 @@ function initializeClock(id,endtime){
     updateClock();
     var timeInterval = setInterval(updateClock, 1000);
 }
-var deadline = new Date(Date.parse(new Date("July 10,2023")));
+var deadline = new Date(Date.parse(new Date("September 31,2023")));
 initializeClock("timeBox",deadline);
 
 
